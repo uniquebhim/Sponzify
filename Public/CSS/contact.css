@@ -43,6 +43,10 @@ nav {
     color: #040404;
 }
 
+.buttons a {
+    text-decoration: none;
+}
+
 .buttons button {
     margin-left: 0;
     padding: 8px 16px;
@@ -63,7 +67,8 @@ nav {
 
 .buttons button:hover {
     opacity: 0.8;
-} 
+}
+
 
 .container{
     height: 50vh;

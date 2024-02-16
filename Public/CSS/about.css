@@ -1,9 +1,8 @@
-
 * {
     margin: 0;
     padding: 0;
     font-family: "Poppins";
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 body {
@@ -22,12 +21,11 @@ nav {
     font-weight: 600;
 }
 
-.logo_text{
+.logo_text {
     color: #030303;
-  font-size: 28px;
-  font-family: "Poppins";
-  font-weight: 600;
-  line-height: 36px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
 }
 
 .pages {
@@ -57,8 +55,8 @@ nav {
 }
 
 .signup {
-    background-color: rgb(0, 0, 255); 
-    color: #fff; 
+    background-color: rgb(0, 0, 255);
+    color: #fff;
 }
 
 .buttons button:hover {
@@ -66,7 +64,8 @@ nav {
 }
 
 /* About Section */
-.about, .mission {
+.about,
+.mission {
     font-size: 18px;
     margin: 10%;
     width: 80%;
@@ -78,11 +77,13 @@ nav {
     height: auto;
 }
 
-.missionh1, .abouth1 {
+.missionh1,
+.abouth1 {
     font-size: 35px;
-    margin:10% auto 3% auto;
+    margin: 10% auto 3% auto;
 }
-.line{
+
+.line {
     margin: 30px 20% auto;
     border: 1px solid rgba(9, 9, 9, 0.2);
 }
@@ -126,9 +127,11 @@ nav {
     margin-top: 50px;
     font-size: 45px;
 }
-.Signup_paragraph{
+
+.Signup_paragraph {
     margin-top: 20px;
 }
+
 .Signup_btn {
     border: none;
     border-radius: 5px;
