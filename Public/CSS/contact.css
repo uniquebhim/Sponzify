@@ -1,0 +1,168 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e6e6e6;
+    color: black;
+}
+
+/* Navigation */
+nav {
+    width: 80%;
+    margin: 0 10% 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.logo_text{
+    color: #030303;
+  font-size: 28px;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.pages {
+    display: flex;
+}
+
+.pages p {
+    margin-right: 20px;
+}
+
+.pages a {
+    text-decoration: none;
+    color: #040404;
+}
+
+.buttons button {
+    margin-left: 0;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.login {
+    background-color: #e6e6e6;
+}
+
+.signup {
+    background-color: rgb(0, 0, 255);
+    color: #fff;
+}
+
+.buttons button:hover {
+    opacity: 0.8;
+} 
+
+.container{
+    height: 50vh;
+    width: 80%;
+    margin: 0% 10% 2%;
+    padding: 5px 10px;
+    display: flex;
+}
+.contact_img{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 400px;
+    height: 400px;
+}
+.contact-us{
+    margin-top: 40px;
+    margin-left: 250px;
+}
+.contact-us h1{
+    font-size: 35px;
+}
+.contact-us p{
+    margin-bottom: 30px;
+}
+label{
+    margin-top: 30px;
+    margin-left: 0;
+    padding-left: 0;
+}
+.form-group input{
+    margin-top: 5px;
+    
+}
+input{
+    padding: 5px 40px 5px 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+}
+
+textarea{
+    width:215px ;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+}
+.contact-us button{
+    margin-top: 25px;
+    border: none;
+    border-radius: 5px;
+    width: 215px;
+    text-align: center;
+    padding: 10px;
+    background-color: blue;
+    color: #fff;
+}
+/* Footer Section */
+footer {
+    width: 80%;
+    margin: 10%;
+}
+
+.footer-container {
+    padding: 5px 20px 20px;
+    margin: 5%;
+    display: flex;
+}
+
+.left_footer {
+    width: 20%;
+}
+
+.right_footer {
+    margin: 20px;
+    text-align: start;
+    width: 80%;
+    height: 80px;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: normal;
+    align-content: normal;
+    gap: 10px;
+}
+
+.flex-items {
+    height: 10px;
+    display: inline;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}

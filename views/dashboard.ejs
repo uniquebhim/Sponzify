@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./CSS/dashboard.css">
+</head>
+
+<body>
+   
+    
+    <section class="right_content">
+    <header>
+        <p class="dash">Dashboard</p>
+        <div class="brands">
+            <label for="">Your Brands:</label>
+            <div class="custom-select" style="width:200px;">
+                <select>
+                  <option value="0">Username/profile</option>
+                  <option value="1">Person1</option>
+                </select>
+            </div>
+        </div>
+        <div class="profile">
+            <img src="./images/profile.png" alt="">
+            <div class="profile_right">
+                <p class="username"><%= user.name %></p>
+                <p id="email"><%= user.email %></p>
+            </div>
+        </div>
+    </header>
+    <section class="callnow">
+        <div class="left">
+            <h1>Assistance is just one call away</h1>
+            <p class="desc">Reach out to us for any support and guidance.</p>
+            <button>Call Now</button>
+        </div>
+        <img src="./images/customerSupport.svg" alt="" id="call_img">
+    </section>
+    <!-- <% if (message) { %>
+        <div style="background-color: #d4edda; color: #155724; border-color: #c3e6cb; padding: 15px; margin-bottom: 20px;">
+            <p><%= message %></p>
+        </div>
+    <% } %> -->
+    <div class="video-container">
+        <div class="video">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/grF47X21ZeQ?si=pRF_SfAUP-cVNRXp" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/grF47X21ZeQ?si=pRF_SfAUP-cVNRXp" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+    
+    <div class="footer-container">
+        <p>&copy; 2024 Sponzify. All rights reserved.</p>
+    </div>
+</section>
+<aside class="aside_left">
+        <img src="./images/logo2.png" alt=""  class="logo">
+        <button class="half_complete_aside_opener">
+            <img src="./images/arrow1.png" alt="" class="arrow-image">
+        </button>
+        <!-- <p class="aside_logo_text">Sponzify</p> -->
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="./images/dashboards.png" alt="">
+                    <p class="left_item">Dashboard</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./images/discovery.png" alt="">
+                    <p class="left_item">Discovery</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./images/list.png" alt="">
+                    <p class="left_item">Lists</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./images/capaign.png" alt="">
+                    <p class="left_item">Campaigns</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./images/report.png" alt="">
+                    <p class="left_item">Reports</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./images/role.png" alt="">
+                    <p class="left_item">Roles</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./images/brand.png" alt="">
+                    <p class="left_item">Brands</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./images/users.png" alt="">
+                    <p class="left_item">Users</p>
+                </a>
+            </li>
+        </ul>
+    </aside>
+    <script src="/JS/dashboard.js"></script>
+</body>
+<footer >
+    
+</footer>
+
+</html>
